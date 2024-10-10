@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 253px;
+    width: 363px;
+    background-image: url(/gradient-mint-background_23-2150284417.avif);
+    margin-top: 100px;
+}
+.container1{
+    
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: sandybrown;
+}
+.container label{
+    color: red;
+}
+.container input{
+   color: green;
+}
+
+
+.container1 {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+
+.id-card {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    max-width: 300px;
+}
+
+.id-card img {
+    border-radius: 50%;
+    border: 10px solid yellow;
+ 
+    width: 125px;
+    height: 125px;
+    object-fit: cover
+}
+
+.id-card h3 {
+    margin: 10px 0;
+}
+
+.id-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.id-card ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
